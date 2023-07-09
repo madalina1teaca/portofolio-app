@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+:root {
+  --ff-title: 'Montserrat', sans-serif;
+  --ff-content: 'Hind', sans-serif;
+}
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100;
+  font-family: var(--ff-content);
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #8ab191;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #465548;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #415344d5;
+}
